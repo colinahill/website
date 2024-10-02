@@ -1,0 +1,44 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Welcome\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nOct 2, 2024\n\n\nColin Hill\n\n\n1 min\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome",
+    "section": "",
+    "text": "Welcome my blog. This will be a space to jot down ideas, experiments, and things I find interesting. I love having a nice visualization to go along with code and analysis, so to kick off I’ll just include this incredible image of the Yukon Delta in Alaska.\n\n\n\nFalse-color image of the Yukon Delta, Alaska, USA (source)\n\n\n\nTopics\nSome major themes will be:\n\nRemote sensing\nEnvironment\nClimate\nWeather\nDemographics\nGeospatial data\n\nAs well as software and tools such as:\n\nPython\nJulia\nMachine Learning / Artificial intelligence\nCloud native data\nGeospatial software\n\n\n\nTech stack\nI’m building this website with Quarto and Pixi."
+  },
+  {
+    "objectID": "about/about.html",
+    "href": "about/about.html",
+    "title": "Dr. Colin Hill",
+    "section": "",
+    "text": "I’m an data scientist and physicist working at the intersection of remote sensing, climate, environment and machine learning.\nI’ve worked across diverse domains ranging from stellar astrophysics to weather forecasts, from climate data to crops, GHG emissions and soil carbon sequestration. I enjoy working on challenging and impactful problems, and a consistent focus has been creating data-driven insights from sensors using physical principles combined with statistical and machine learning approaches."
+  },
+  {
+    "objectID": "about/about.html#bio",
+    "href": "about/about.html#bio",
+    "title": "Dr. Colin Hill",
+    "section": "",
+    "text": "I’m an data scientist and physicist working at the intersection of remote sensing, climate, environment and machine learning.\nI’ve worked across diverse domains ranging from stellar astrophysics to weather forecasts, from climate data to crops, GHG emissions and soil carbon sequestration. I enjoy working on challenging and impactful problems, and a consistent focus has been creating data-driven insights from sensors using physical principles combined with statistical and machine learning approaches."
+  },
+  {
+    "objectID": "about/about.html#experience",
+    "href": "about/about.html#experience",
+    "title": "Dr. Colin Hill",
+    "section": "Experience",
+    "text": "Experience\nRegrow Ag | 2022-2024\nSenior Data Scientist\nTechnical Lead\nWeatherForce | 2019-2021\nSenior Data Scientist\nInstitut de Recherche en Astrophysique et Planétologie | 2016-2019\nPostdoctoral Research Scientist (Astrophysics)"
+  },
+  {
+    "objectID": "about/about.html#education",
+    "href": "about/about.html#education",
+    "title": "Dr. Colin Hill",
+    "section": "Education",
+    "text": "Education\nPh.D. Astrophysics | 2012-2015\nQueen’s University Belfast, UK\nM.Sci. Physics | 2008-2012\nQueen’s University Belfast, UK"
+  }
+]
