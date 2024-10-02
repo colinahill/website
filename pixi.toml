@@ -1,0 +1,16 @@
+[project]
+name = "website"
+description = "Colin Hill's personal website"
+authors = ["Colin Hill <colinalastairhill@gmail.com>"]
+channels = ["conda-forge"]
+# linux-64 is used by GitHub Actions
+platforms = ["osx-arm64", "linux-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = "3.12.*"
+jupyter = "*"
+numpy = "*"
+matplotlib = "*"
