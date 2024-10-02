@@ -1,0 +1,27 @@
+project:
+  type: website
+  output-dir: docs
+
+execute:
+  freeze: auto
+
+website:
+  title: "Colin Hill"
+  navbar:
+    right:
+      - href: index.qmd
+        text: Home
+      - href: about/about.qmd
+        text: About
+      - icon: github
+        href: https://github.com/colinahill/
+      - icon: linkedin
+        href: https://www.linkedin.com/in/colinahill/
+  favicon: favicon.ico
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+

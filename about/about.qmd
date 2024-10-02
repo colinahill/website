@@ -1,0 +1,43 @@
+---
+title: "Dr. Colin Hill"
+about:
+  template: trestles
+  image: profile.jpg
+  image-width: 16em
+  links:
+    - icon: github
+      text: Github
+      href: https://github.com/colinahill/
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/colinahill/
+    - icon: book
+      text: Publications
+      href: https://scholar.google.com/citations?hl=en&user=HTxD9ZEAAAAJ&view_op=list_works&gmla=ALUCkoWnkbn-iQsxnAJO_7hHcRoPUfoekBEX8ldWBjeAL6eB0RV2v1XSrfvN0CafvK78x-pQ9TzQGlHVbrhqiYGx
+toc: false
+---
+## Bio
+
+I'm a data scientist and physicist working at the intersection of remote sensing, climate, environment and machine learning.
+
+I've worked across diverse domains ranging from stellar astrophysics to weather forecasts, from climate data to crops, GHG emissions and soil carbon sequestration. I enjoy working on challenging and impactful problems, and a consistent focus has been creating data-driven insights from sensors using physical principles combined with statistical and machine learning approaches.
+
+## Experience
+
+**Regrow Ag** | 2022-2024\
+Senior Data Scientist\
+Technical Lead
+
+**WeatherForce** | 2019-2021\
+Senior Data Scientist
+
+**Institut de Recherche en Astrophysique et Planétologie** | 2016-2019\
+Postdoctoral Research Scientist (Astrophysics)
+
+## Education
+
+**Ph.D. Astrophysics** | 2012-2015\
+Queen's University Belfast, UK
+
+**M.Sci. Physics** | 2008-2012\
+Queen's University Belfast, UK

@@ -1,0 +1,34 @@
+---
+title: "Welcome"
+author: "Colin Hill"
+date: "2024-10-02"
+image: https://upload.wikimedia.org/wikipedia/commons/6/6e/YukonDelta_ASTER_2002may26.jpg
+categories: [news]
+---
+Welcome my blog. This will be a space to jot down ideas, experiments, and things I find interesting. I love having a nice visualization to go along with code and analysis, so to kick off I'll just include this incredible image of the Yukon Delta in Alaska.
+
+![False-color image of the Yukon Delta, Alaska, USA ([source](https://commons.wikimedia.org/wiki/File:YukonDelta_ASTER_2002may26.jpg))](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/YukonDelta_ASTER_2002may26.jpg/480px-YukonDelta_ASTER_2002may26.jpg
+){width=300px fig-align="left"}
+
+    
+# Topics
+Some major themes will be:
+
+* Remote sensing
+* Environment
+* Climate
+* Weather
+* Demographics
+* Geospatial data
+
+As well as software and tools such as:
+
+* Python
+* Julia
+* Machine Learning / Artificial intelligence
+* Cloud native data
+* Geospatial software
+
+# Tech stack
+I'm building this website with [Quarto](https://quarto.org/) and [Pixi](https://pixi.sh/).
+
