@@ -2,6 +2,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/relative_elevation_model/index.html",
       "/posts/welcome/index.html"
     ]
   }
