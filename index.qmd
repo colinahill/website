@@ -2,7 +2,6 @@
 title: "Dr. Colin Hill"
 about:
   template: trestles
-  # template: broadside
   image: about/profile.jpg
   image-width: 16em
   links:
