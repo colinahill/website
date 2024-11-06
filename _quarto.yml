@@ -18,6 +18,8 @@ website:
       - icon: linkedin
         href: https://www.linkedin.com/in/colinahill/
   favicon: favicon.ico
+  google-analytics:
+    tracking-id: "G-838Z23X56N"
 format:
   html:
     theme: cosmo
