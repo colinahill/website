@@ -1,5 +1,6 @@
 project:
   type: website
+  output-dir: _site
   resources:
     - CNAME
 
@@ -13,16 +14,15 @@ website:
     right:
       - href: index.qmd
         text: Home
-      - href: about/about.qmd
-        text: About
+      - href: blog.qmd
+        text: Blog
       - icon: github
         href: https://github.com/colinahill/
       - icon: linkedin
         href: https://www.linkedin.com/in/colinahill/
   favicon: favicon.ico
   site-url: https://colinahill.com/
-  google-analytics:
-    tracking-id: "G-838Z23X56N"
+  google-analytics: "G-838Z23X56N"
 format:
   html:
     theme: cosmo
