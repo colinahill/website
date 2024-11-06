@@ -10,7 +10,7 @@ version = "0.1.0"
 [tasks]
 
 [dependencies]
-python = "3.12"
+python = "==3.11"
 jupyter = ">=1.1.1,<2"
 numpy = "*"
 matplotlib = "*"
@@ -26,3 +26,4 @@ pynhd = ">=0.18.0,<0.19"
 pygeoutils = ">=0.18.0,<0.19"
 ipyleaflet = ">=0.19.2,<0.20"
 earthengine-api = ">=1.2.0,<2"
+jupyter-cache = ">=1.0.0,<2"

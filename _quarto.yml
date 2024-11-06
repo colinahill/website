@@ -2,11 +2,12 @@ project:
   type: website
   resources:
     - CNAME
+
 execute:
   freeze: true
+  cache: true
 
 website:
-
   title: "Colin Hill"
   navbar:
     right:
