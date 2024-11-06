@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Dr.&nbsp;Colin Hill – Colin Hill</title>
+<title>Blog – Colin Hill</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -31,9 +31,12 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./favicon.ico" rel="icon">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
@@ -66,6 +69,35 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-description','listing-image','listing-date','listing-title','listing-author','listing-reading-time','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-838Z23X56N"></script>
 
 <script type="text/javascript">
@@ -76,14 +108,43 @@ gtag('js', new Date());
 gtag('config', 'G-838Z23X56N', { 'anonymize_ip': true});
 </script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
@@ -98,11 +159,11 @@ gtag('config', 'G-838Z23X56N', { 'anonymize_ip': true});
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./blog.html"> 
+    <a class="nav-link active" href="./blog.html" aria-current="page"> 
 <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item compact">
@@ -123,65 +184,130 @@ gtag('config', 'G-838Z23X56N', { 'anonymize_ip': true});
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-page-left">
+      <h1 class="title">Blog</h1>
+                      </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta column-page-left">
+
+      
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(2)</span></div><div class="category" data-category="DEM">DEM <span class="quarto-category-count">(1)</span></div><div class="category" data-category="GeoPandas">GeoPandas <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Python">Python <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Visualization">Visualization <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Xarray">Xarray <span class="quarto-category-count">(1)</span></div><div class="category" data-category="news">news <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
-<div class="quarto-about-trestles">
-  <div class="about-entity">
-    <img src="about/profile.jpg" class="about-image
-  rounded " style="width: 16em;">
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Dr.&nbsp;Colin Hill</h1>
-</div>
-<div class="quarto-title-meta">
-  </div>
-</header>
-    <div class="about-links">
-  <a href="https://github.com/colinahill/" class="about-link" rel="" target="">
-    <i class="bi bi-github"></i>
-     <span class="about-link-text">Github</span>
-  </a>
-  <a href="https://www.linkedin.com/in/colinahill/" class="about-link" rel="" target="">
-    <i class="bi bi-linkedin"></i>
-     <span class="about-link-text">LinkedIn</span>
-  </a>
-  <a href="https://scholar.google.com/citations?hl=en&amp;user=HTxD9ZEAAAAJ&amp;view_op=list_works&amp;gmla=ALUCkoWnkbn-iQsxnAJO_7hHcRoPUfoekBEX8ldWBjeAL6eB0RV2v1XSrfvN0CafvK78x-pQ9TzQGlHVbrhqiYGx" class="about-link" rel="" target="">
-    <i class="bi bi-book"></i>
-     <span class="about-link-text">Publications</span>
-  </a>
-</div>
-  </div>
-  <div class="about-contents"><main class="content" id="quarto-document-content">
-<section id="bio" class="level2">
-<h2 data-anchor-id="bio">Bio</h2>
-<p>I’m a data scientist and physicist working at the intersection of remote sensing, climate, environment and machine learning.</p>
-<p>I’ve worked across diverse domains ranging from stellar astrophysics to weather forecasts, from climate data to crops, GHG emissions and soil carbon sequestration. I enjoy working on challenging and impactful problems, and a consistent focus has been creating data-driven insights from sensors using physical principles combined with statistical and machine learning approaches.</p>
-</section>
-<section id="experience" class="level2">
-<h2 data-anchor-id="experience">Experience</h2>
-<p><a href="https://www.linkedin.com/company/regrowag/"><strong>Regrow Ag</strong></a> | 2022-2024<br>
-Senior Data Scientist<br>
-Technical Lead</p>
-<p><a href="https://www.linkedin.com/company/weatherforce/"><strong>WeatherForce</strong></a> | 2019-2021<br>
-Senior Data Scientist</p>
-<p><a href="https://www.irap.omp.eu/en/homepage-en"><strong>Institut de Recherche en Astrophysique et Planétologie</strong></a> | 2016-2019<br>
-Postdoctoral Research Scientist (Astrophysics)</p>
-</section>
-<section id="education" class="level2">
-<h2 data-anchor-id="education">Education</h2>
-<p><strong>Ph.D.&nbsp;Astrophysics</strong> | 2012-2015<br>
-Queen’s University Belfast, UK</p>
-<p><strong>M.Sci. Physics</strong> | 2008-2012<br>
-Queen’s University Belfast, UK</p>
+<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
 
 
-</section>
-</main></div>
+
+
+
+
+
+
+
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-categories="Visualization,DEM,Xarray,GeoPandas,Python" data-listing-date-sort="1730617200000" data-listing-file-modified-sort="1730925320253" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="357">
+<div class="thumbnail">
+<p><a href="./posts/relative_elevation_model/index.html" class="no-external"></a></p><a href="./posts/relative_elevation_model/index.html" class="no-external">
+<p class="card-img-top"><img src="posts/relative_elevation_model/index_files/figure-html/cell-20-output-1.png"  class="thumbnail-image card-img"/></p>
+</a><p><a href="./posts/relative_elevation_model/index.html" class="no-external"></a></p>
 </div>
- <!-- /main -->
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/relative_elevation_model/index.html" class="no-external">A River’s History Visualized</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/relative_elevation_model/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Visualization'); return false;">
+Visualization
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('DEM'); return false;">
+DEM
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Xarray'); return false;">
+Xarray
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('GeoPandas'); return false;">
+GeoPandas
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Python'); return false;">
+Python
+</div>
+</div>
+<div class="listing-description">
+<a href="./posts/relative_elevation_model/index.html" class="no-external">Visualizing the meanderings of the Snake River in Grand Teton National Park using a relative elevation model</a>
+</div>
+</div>
+<div class="metadata">
+<a href="./posts/relative_elevation_model/index.html" class="no-external">
+<div class="listing-date">
+Nov 3, 2024
+</div>
+<div class="listing-author">
+Colin Hill
+</div>
+<div class="listing-reading-time">
+2 min
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-categories="news" data-listing-date-sort="1727852400000" data-listing-file-modified-sort="1727905126935" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="100">
+<div class="thumbnail">
+<p><a href="./posts/welcome/index.html" class="no-external"></a></p><a href="./posts/welcome/index.html" class="no-external">
+<p><img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/6/6e/YukonDelta_ASTER_2002may26.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/welcome/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/welcome/index.html" class="no-external">Welcome</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/welcome/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('news'); return false;">
+news
+</div>
+</div>
+<div class="listing-description">
+<a href="./posts/welcome/index.html" class="no-external">Welcome my blog. This will be a space to jot down ideas, experiments, and things I find interesting. I love having a nice visualization to go along with code and analysis…</a>
+</div>
+</div>
+<div class="metadata">
+<a href="./posts/welcome/index.html" class="no-external">
+<div class="listing-date">
+Oct 2, 2024
+</div>
+<div class="listing-author">
+Colin Hill
+</div>
+<div class="listing-reading-time">
+1 min
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -202,6 +328,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     

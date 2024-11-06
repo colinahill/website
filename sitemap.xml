@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://colinahill.com/index.html</loc>
+    <loc>https://colinahill.com/blog.html</loc>
     <lastmod>2024-10-02T21:38:46.933Z</lastmod>
   </url>
   <url>
@@ -10,10 +10,10 @@
   </url>
   <url>
     <loc>https://colinahill.com/posts/relative_elevation_model/index.html</loc>
-    <lastmod>2024-11-06T19:28:06.286Z</lastmod>
+    <lastmod>2024-11-06T20:35:20.253Z</lastmod>
   </url>
   <url>
-    <loc>https://colinahill.com/about/about.html</loc>
-    <lastmod>2024-11-04T22:47:16.952Z</lastmod>
+    <loc>https://colinahill.com/index.html</loc>
+    <lastmod>2024-11-06T20:52:13.225Z</lastmod>
   </url>
 </urlset>
