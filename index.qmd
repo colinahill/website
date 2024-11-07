@@ -18,7 +18,7 @@ toc: false
 format:
   html: 
     grid:
-      body-width: 1000px
+      body-width: 1200px
 ---
 ## Bio
 
