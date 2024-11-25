@@ -2,6 +2,7 @@
   {
     "listing": "/blog.html",
     "items": [
+      "/posts/power_usa/index.html",
       "/posts/relative_elevation_model/index.html",
       "/posts/welcome/index.html"
     ]
