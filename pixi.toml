@@ -39,6 +39,10 @@ holoviews = ">=1.20.0,<2"
 geoviews = ">=1.13.0,<2"
 bokeh = ">=3.5.2,<4"
 jupyter-cache = ">=1.0.1,<2"
+rasterio = ">=1.4.3,<2"
+gdal = ">=3.10.0,<4"
+movingpandas = ">=0.20.0,<0.21"
+selenium = ">=4.27.1,<5"
 
 [pypi-dependencies]
 fused = "*" 
