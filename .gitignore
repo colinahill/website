@@ -2,3 +2,4 @@
 /.pixi/
 /_site/
 /_scratch/
+**/*.quarto_ipynb
