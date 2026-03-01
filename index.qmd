@@ -22,9 +22,9 @@ format:
 ---
 ## Bio
 
-I'm a data scientist and physicist working at the intersection of remote sensing, climate, environment and machine learning.
+I'm a data scientist and physicist working at the intersection of IoT sensors, remote sensing, agriculture and AI and machine learning.
 
-I've worked across diverse domains ranging from stellar astrophysics to weather forecasts, from climate data to crops, GHG emissions and soil carbon sequestration. I enjoy working on challenging and impactful problems, and a consistent focus has been creating data-driven insights from sensors using physical principles combined with statistical and machine learning approaches.
+I've worked across diverse domains ranging from stellar astrophysics to weather, crop modeling and soil health. I enjoy working on challenging and impactful problems, and a consistent focus has been creating data-driven insights from sensors using physical principles combined with statistical and machine learning approaches.
 
 ## Experience
 
@@ -43,7 +43,7 @@ Postdoctoral Research Scientist (Astrophysics)
 
 ## Education
 
-**Ph.D. Astrophysics** | 2012-2015\
+**Ph.D. Astrophysics** | 2012-2016\
 Queen's University Belfast, UK
 
 **M.Sci. Physics** | 2008-2012\
