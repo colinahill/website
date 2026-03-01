@@ -10,15 +10,13 @@ Welcome my blog. This will be a space to jot down ideas, experiments, and things
 ![False-color image of the Yukon Delta, Alaska, USA ([source](https://commons.wikimedia.org/wiki/File:YukonDelta_ASTER_2002may26.jpg))](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/YukonDelta_ASTER_2002may26.jpg/480px-YukonDelta_ASTER_2002may26.jpg
 ){width=300px fig-align="left"}
 
-    
+
 # Topics
 Some major themes will be:
 
 * Remote sensing
-* Environment
-* Climate
 * Weather
-* Demographics
+* Environment
 * Geospatial data
 
 As well as software and tools such as:
